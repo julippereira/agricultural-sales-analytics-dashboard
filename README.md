@@ -13,7 +13,7 @@ The solution combines dimensional modeling, DAX calculations, interactive report
 ---
 
 
- 📑 Table of Contents
+ # 📑 Table of Contents
 
 - Dashboard Preview
 - Project Highlights
