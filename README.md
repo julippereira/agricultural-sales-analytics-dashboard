@@ -95,15 +95,7 @@ The dashboard was designed to answer questions such as:
 
 The solution follows a dimensional modeling approach using a star schema.
 
-```text
-                 Calendar
-                     │
-                     │
-Customers ─── Sales Fact ─── Products
-                     │
-                     │
-                Categories
-```
+![Star Schema Data Model](power_bi/data_model.png)
 
 ## Fact Table
 
