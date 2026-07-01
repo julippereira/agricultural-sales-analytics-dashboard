@@ -1,0 +1,45 @@
+Base Clientes;;;;;
+Exportado em 01/01/2023 - 15:35:32;;;;;
+;;;;;
+;;;;;
+CÓD. CLIENTE;CNPJ;RAZÃO SOCIAL;UF;ZONA DE VENDAS;GERENCIA DE VENDAS
+;;;;;
+1;12.345.678/0001-90;Fazenda Boa Colheita Ltda;MT;Centro-Oeste 1;Gerência Centro-Oeste
+13;33.567.890/0001-32;Cooperativa Mato-Grossense de Grãos;MT;;
+25;68.789.012/0001-64;Fazenda Boa Vista da Soja S/A;MT;;
+2;23.456.789/0001-11;Cooperativa Agrícola do Cerrado;GO;Centro-Oeste 2;Gerência Centro-Oeste
+6;67.890.123/0001-55;Agro Planalto Comércio e Serviços Ltda;MS;;
+11;11.345.678/0001-10;Revenda Máquinas do Cerrado Ltda;GO;;
+15;55.789.012/0001-54;Fazenda Três Irmãos Agropecuária;MS;;
+17;77.901.234/0001-76;Cerrado Máquinas e Equipamentos Ltda;GO;;
+29;14.123.456/0001-08;Fazenda Colinas do Cerrado Ltda;GO;;
+9;90.123.456/0001-88;Terra Nova Agronegócios Ltda;BA;Nordeste 1;Gerência Nordeste
+16;66.890.123/0001-65;Cooperativa Agrícola do Vale do São Francisco;BA;;
+21;24.345.678/0001-20;Cooperativa Piauiense de Agricultura;PI;;
+24;57.678.901/0001-53;Agrícola Nordeste Máquinas e Peças Ltda;MA;;
+12;22.456.789/0001-21;Fazenda Santa Fé do Araguaia;TO;Norte;Gerência Norte
+18;88.012.345/0001-87;Fazenda Primavera do Norte S/A;PA;;
+22;35.456.789/0001-31;Fazenda Rio Verde Colheitas Ltda;RO;;
+28;91.012.345/0001-97;Agropecuária Vale do Araguaia Ltda;TO;;
+7;78.901.234/0001-66;Fazenda Horizonte Fértil S/A;SP;Sudeste 1;Gerência Sudeste
+20;13.234.567/0001-09;Revenda Case New Holland São Paulo;SP;;
+26;79.890.123/0001-75;Cooperativa Regional dos Canaviais;SP;;
+8;89.012.345/0001-77;Cooperativa Agropecuária do Triângulo;MG;Sudeste 2;
+19;99.123.456/0001-98;Agronegócios Sul Mineiro Ltda;MG;;
+4;45.678.901/0001-33;Fazenda Campo Verde Agronegócios;RS;Sul 1;Gerência Sul
+5;56.789.012/0001-44;Cooperativa Central de Grãos do Sul;SC;;
+10;10.234.567/0001-99;Grupo Agrícola Pampa Ltda;RS;;
+23;46.567.890/0001-42;Sul Máquinas Agrícolas Ltda;SC;;
+27;80.901.234/0001-86;Revenda Pampa Tratores Ltda;RS;;
+3;34.567.890/0001-22;Agropecuária São João da Terra Ltda;PR;Sul 2;
+14;44.678.901/0001-43;Agrosul Implementos e Máquinas Ltda;PR;;
+30;25.234.567/0001-19;Cooperativa Agroindustrial do Paraná;PR;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
