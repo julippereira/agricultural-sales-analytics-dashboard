@@ -6,80 +6,102 @@
 ![Business Intelligence](https://img.shields.io/badge/Business_Intelligence-Reporting-success?style=for-the-badge)
 ![Data Modeling](https://img.shields.io/badge/Data_Modeling-Star_Schema-purple?style=for-the-badge)
 
-End-to-end Business Intelligence project developed in Power BI to analyze sales performance, customer behavior, product portfolio, regional distribution and revenue trends across multiple years.
+An end-to-end Business Intelligence project developed in Power BI to analyze sales performance, customer behavior, product portfolio, regional distribution, and revenue trends across multiple years.
 
-The solution leverages dimensional modeling, DAX measures and interactive dashboards to provide actionable insights for commercial management and strategic decision-making.
-
----
-
-## 🎯 Project Highlights
-
-- Interactive Power BI dashboard
-- Star schema data model
-- Multi-year sales analysis
-- Revenue and profitability monitoring
-- Time intelligence calculations
-- Regional performance analysis
-- Customer segmentation and ranking
-- Product portfolio analytics
-- KPI monitoring
-- Executive reporting
+The solution combines dimensional modeling, DAX calculations, interactive reporting, and business analytics to support data-driven decision making.
 
 ---
 
-## 🚀 Overview
 
-This project analyzes agricultural equipment sales across multiple brands, product categories, customers and geographic regions.
+ 📑 Table of Contents
 
-The dashboard enables users to:
+- Dashboard Preview
+- Project Highlights
+- Project Overview
+- Business Questions
+- Data Model
+- Data Source
+- Analytics Capabilities
+- Key Metrics
+- Report Pages
+- Project Structure
+- Sample Data
+- Power BI Features
+- Sample DAX Measures
+- Getting Started
+- Business Value
+- Technologies Used
+- What This Project Demonstrates
+- Disclaimer
+- Author
+- Contact
+
+
+---
+
+# 📊 Dashboard Preview
+
+### Executive Sales Overview
+
+![Sales Overview](dashboard/sales_overview.png)
+
+### Portfolio & Regional Analysis
+
+![Portfolio Analysis](dashboard/portfolio_analysis.png)
+
+### Customer Analytics
+
+![Customer Analytics](dashboard/customer_analysis.png)
+
+---
+
+# 🎯 Project Highlights
+
+- Interactive Power BI Dashboard
+- Star Schema Data Model
+- Revenue Analytics
+- Customer Analytics
+- Product Portfolio Analysis
+- Geographic Performance Monitoring
+- Advanced DAX Measures
+- Time Intelligence
+- KPI Monitoring
+- Executive Reporting
+
+---
+
+# 🚀 Project Overview
+
+This project analyzes agricultural equipment sales across multiple regions, brands, products, and customers.
+
+The dashboard provides a centralized commercial analytics environment that enables users to:
 
 - Monitor revenue performance
 - Compare yearly results
 - Analyze seasonality patterns
 - Evaluate product portfolio performance
-- Identify top customers
-- Monitor regional sales distribution
-- Support commercial decision-making
+- Identify top-performing customers
+- Analyze regional sales distribution
+- Support strategic and operational decisions
 
 ---
 
-## 📷 Dashboard Preview
+# ❓ Business Questions
 
-The report was designed to support executive analysis through a unified sales performance view.
+The dashboard was designed to answer questions such as:
 
-### Main Analysis Areas
-
-#### 1. Revenue Overview & Seasonality
-
-- Revenue evolution by month
-- Year-over-year comparison
-- Annual revenue performance
-- Seasonality patterns
-
-#### 2. Portfolio & Regional Analysis
-
-- Sales distribution by region
-- Revenue by sales management area
-- Product category performance
-- Brand comparison
-
-#### 3. Customer Analytics
-
-- Top customers by revenue
-- Bottom customers by purchase volume
-- Customer concentration analysis
-- Commercial performance monitoring
-
-```text
-dashboard/
-├── revenue_overview.png
-├── regional_performance.png
-└── customer_analysis.png
-```
+- How has revenue evolved over time?
+- Which regions generate the highest revenue?
+- Which products drive sales performance?
+- Who are the top customers by revenue?
+- Which customers purchase the fewest products?
+- How do brands compare?
+- Are there seasonal sales patterns?
+- Which product categories contribute most to revenue?
 
 ---
 
-## 🏗️ Data Model
+# 🏗️ Data Model
 
 The solution follows a dimensional modeling approach using a star schema.
 
@@ -90,22 +112,22 @@ The solution follows a dimensional modeling approach using a star schema.
 Customers ─── Sales Fact ─── Products
                      │
                      │
-               Categories
+                Categories
 ```
 
-### Fact Table
+## Fact Table
 
 ```text
 Sales
 ```
 
-Core metrics:
+Main metrics:
 
 - Quantity Sold
 - Unit Price
 - Revenue
 
-### Dimension Tables
+## Dimension Tables
 
 ```text
 Customers
@@ -116,135 +138,184 @@ Calendar
 
 ---
 
-## 📂 Project Structure
+# 📂 Data Source
 
-```text
-agricultural-sales-analytics-dashboard/
-│
-├── dashboard/
-│   ├── revenue_overview.png
-│   ├── regional_performance.png
-│   └── customer_analysis.png
-│
-├── sample_data/
-│   ├── customers_sample.csv
-│   ├── products_sample.csv
-│   ├── categories_sample.csv
-│   ├── sales_sample.csv
-│   └── calendar_sample.csv
-│
-├── dax/
-│   └── measures.md
-│
-├── power_bi/
-│   └── Agricultural_Sales_Analytics.pbix
-│
-└── README.md
-```
+The dataset used in this project was originally provided as part of a Business Intelligence training exercise.
+
+All customers, products, transactions and business entities are fictional and intended exclusively for educational purposes.
+
+No confidential or proprietary business information is included.
 
 ---
 
-## 📊 Business Metrics
+# 📈 Analytics Capabilities
 
-The dashboard includes key commercial indicators such as:
+## Revenue Analysis
 
-### Revenue Metrics
+- Total Revenue
+- Revenue Evolution
+- Monthly Comparison
+- Annual Comparison
+- Revenue Growth Analysis
+
+## Customer Analysis
+
+- Top Customers
+- Bottom Customers
+- Revenue Concentration
+- Purchase Volume Analysis
+
+## Product Analysis
+
+- Product Performance
+- Category Performance
+- Brand Comparison
+- Product Ranking
+
+## Geographic Analysis
+
+- Revenue by State
+- Revenue by Region
+- Sales Management Performance
+- Regional Revenue Distribution
+
+## Time Intelligence
+
+- Year-over-Year (YoY)
+- Year-to-Date (YTD)
+- Monthly Trends
+- Annual Trends
+- Seasonality Analysis
+
+---
+
+# 📊 Key Metrics
+
+The dashboard includes key business indicators such as:
 
 - Total Revenue
 - Revenue by Year
 - Revenue by Month
 - Revenue Growth (%)
 - Revenue by Brand
-
-### Customer Metrics
-
-- Top Customers
-- Bottom Customers
-- Revenue Concentration
-- Purchase Volume
-
-### Product Metrics
-
-- Revenue by Product
 - Revenue by Category
-- Sales Volume by Product
-- Product Ranking
+- Revenue by Region
+- Quantity Sold
+- Top Customers
+- Top Products
 
-### Regional Metrics
+---
 
-- Revenue by State
-- Revenue by Sales Region
+# 📑 Report Pages
+
+## 1. Revenue Overview & Seasonality
+
+Provides a consolidated view of commercial performance.
+
+Includes:
+
+- Revenue KPIs
+- Monthly Revenue Trends
+- Year-over-Year Comparison
+- Revenue Growth Analysis
+- Seasonality Monitoring
+
+---
+
+## 2. Portfolio & Regional Analysis
+
+Provides visibility into product performance and geographic distribution.
+
+Includes:
+
+- Revenue by Product Category
+- Revenue by Brand
 - Revenue by Sales Management Area
+- Geographic Sales Distribution
+- Product Rankings
 
 ---
 
-## 📈 Analytical Capabilities
+## 3. Customer Analytics
 
-### Time Intelligence
+Provides detailed customer performance analysis.
 
-The solution supports:
+Includes:
 
-- Year-over-Year (YoY)
-- Year-to-Date (YTD)
-- Monthly comparisons
-- Trend analysis
-- Seasonality analysis
-
----
-
-### Commercial Performance
-
-Users can monitor:
-
-- Sales evolution
-- Revenue growth
-- Customer purchasing behavior
-- Product demand
-- Brand performance
+- Top Customers by Revenue
+- Bottom Customers by Purchase Volume
+- Customer Contribution Analysis
+- Commercial Performance Monitoring
 
 ---
 
-### Geographic Analysis
+# 📁 Project Structure
 
-Interactive regional analysis includes:
-
-- State-level performance
-- Regional comparisons
-- Sales management performance
-- Revenue concentration analysis
+```text
+agricultural-sales-analytics-dashboard/
+│
+├── dashboard/
+│   ├── sales_overview.png
+│   ├── portfolio_analysis.png
+│   └── customer_analysis.png
+│
+├── power_bi/
+│   └── Agricultural_Sales_Analytics.pbix
+│
+├── sample_data/
+│   ├── customers.csv
+│   ├── products.csv
+│   ├── categories.csv
+│   ├── sales.csv
+│   ├── calendar.csv
+│   └── README.md
+│
+└── README.md
+```
 
 ---
 
-## 📊 Sample Data
+# 📊 Sample Data
 
-Representative datasets are included for demonstration purposes.
-
-### Available Datasets
+Sample datasets are included to demonstrate the complete analytical workflow.
 
 ```text
 sample_data/
-├── customers_sample.csv
-├── products_sample.csv
-├── categories_sample.csv
-├── sales_sample.csv
-└── calendar_sample.csv
+├── customers.csv
+├── products.csv
+├── categories.csv
+├── sales.csv
+└── calendar.csv
 ```
 
-### Data Characteristics
+For detailed dataset documentation, see:
 
-All sample datasets are:
-
-- Anonymized
-- Portfolio-friendly
-- Structurally equivalent to production datasets
-- Free from confidential information
-- Suitable for learning and demonstration
+```text
+sample_data/README.md
+```
 
 ---
 
-## 🧮 Sample DAX Measures
+# 💻 Power BI Features
 
-Examples of analytical calculations included in the project:
+The report demonstrates several Power BI capabilities:
+
+- Star Schema Modeling
+- DAX Measures
+- Time Intelligence
+- KPI Cards
+- Interactive Slicers
+- Drill-Down Analysis
+- Geographic Maps
+- Ranking Analysis
+- Dynamic Filtering
+- Executive Dashboards
+
+---
+
+# 🧮 Sample DAX Measures
+
+### Revenue
 
 ```DAX
 Revenue =
@@ -254,6 +325,8 @@ SUMX(
 )
 ```
 
+### Revenue YTD
+
 ```DAX
 Revenue YTD =
 TOTALYTD(
@@ -261,6 +334,8 @@ TOTALYTD(
     Calendar[Date]
 )
 ```
+
+### Revenue Growth %
 
 ```DAX
 Revenue Growth % =
@@ -270,41 +345,19 @@ DIVIDE(
 )
 ```
 
-Additional measures include:
+---
 
-- Ranking
-- Time Intelligence
-- Running Totals
-- Year-over-Year Comparisons
-- Customer Segmentation
+# 🚀 Getting Started
+
+## Requirements
+
+```text
+Power BI Desktop
+```
 
 ---
 
-## 💻 Power BI Features
-
-The report demonstrates several Power BI capabilities:
-
-- Dimensional data modeling
-- DAX calculations
-- KPI cards
-- Interactive filtering
-- Geographic visualizations
-- Ranking analysis
-- Time intelligence
-- Drill-down navigation
-
----
-
-## 🚀 Getting Started
-
-### Requirements
-
-- Power BI Desktop
-- Sample datasets (optional)
-
----
-
-### Open the Project
+## Open the Project
 
 ```text
 power_bi/
@@ -313,21 +366,9 @@ power_bi/
 
 ---
 
-### Explore the Data Model
+## Explore the Dashboard
 
-```text
-Customers
-Products
-Categories
-Calendar
-Sales
-```
-
----
-
-### Interact with the Dashboard
-
-Available slicers include:
+Available filters include:
 
 - Year
 - Brand
@@ -337,23 +378,23 @@ Available slicers include:
 
 ---
 
-## 📈 Business Value
+# 📈 Business Value
 
-The dashboard provides a centralized commercial analytics environment that supports strategic and operational decisions.
+The dashboard provides a centralized environment for monitoring commercial performance and supporting strategic decisions.
 
 Key benefits include:
 
-- Increased visibility into sales performance
-- Improved customer analytics
-- Better product portfolio management
+- Improved visibility into sales performance
+- Faster access to commercial insights
+- Better customer understanding
+- Enhanced product portfolio management
 - Revenue trend monitoring
-- Regional performance tracking
-- Faster decision-making
-- Enhanced KPI governance
+- Regional performance comparison
+- KPI governance and tracking
 
 ---
 
-## 🧩 Technologies Used
+# 🧩 Technologies Used
 
 - Power BI
 - DAX
@@ -364,55 +405,52 @@ Key benefits include:
 
 ---
 
-## 🧠 What This Project Demonstrates
+# 🧠 What This Project Demonstrates
 
-- Business Intelligence development
-- Dashboard design
-- Data visualization
-- Dimensional modeling
-- DAX development
-- Time intelligence
-- KPI monitoring
-- Revenue analytics
-- Customer analytics
-- Product analytics
-- Geographic analysis
-- Executive reporting
+- Business Intelligence Development
+- Dashboard Design
+- Data Visualization
+- DAX Development
+- Data Modeling
+- KPI Monitoring
+- Revenue Analytics
+- Customer Analytics
+- Product Analytics
+- Geographic Analysis
+- Executive Reporting
 
 ---
 
-## 🔒 Disclaimer
+# 🔒 Disclaimer
 
-This repository contains a portfolio version of a commercial analytics project.
+This repository contains a portfolio version of a Business Intelligence project developed using a fictional training dataset.
 
 - No confidential information is included
-- Sample datasets are anonymized
-- Business data has been adapted for demonstration purposes
-- Files are intended exclusively for educational and portfolio use
+- No proprietary business information is included
+- Sample data is provided exclusively for educational and portfolio purposes
 
 ---
 
-## ⭐ Final Notes
+# 👤 Author
 
-This project showcases the complete development cycle of a Business Intelligence solution, from data modeling and metric definition to dashboard design and executive reporting.
-
-The focus is on delivering scalable, maintainable and business-oriented analytics capable of supporting commercial performance management and strategic decision-making.
-
----
-
-## 👤 Author
-
-Data Analytics professional specializing in:
+Data Analytics professional with experience in:
 
 - Power BI
-- Data Modeling
 - DAX
+- Data Modeling
 - Business Intelligence
 - Data Engineering
 - Analytics Engineering
 
 ---
 
-## 📬 Contact
+# 📬 Contact
 
-Feel free to reach out for questions or discussions about this project.
+Feel free to connect or reach out to discuss:
+
+- Power BI
+- Business Intelligence
+- Data Analytics
+- Data Engineering
+- Dashboard Development
+- Data Visualization
