@@ -53,15 +53,7 @@ Key analytical areas include:
 
 The report uses a star schema design.
 
-```text
-                 Calendar
-                     │
-                     │
-Customers ─── Sales Fact ─── Products
-                     │
-                     │
-                Categories
-```
+![Star Schema Data Model](data_model.png)
 
 ---
 
