@@ -41,17 +41,7 @@ The solution combines dimensional modeling, DAX calculations, interactive report
 
 # 📊 Dashboard Preview
 
-### Executive Sales Overview
-
-![Sales Overview](dashboard/sales_overview.png)
-
-### Portfolio & Regional Analysis
-
-![Portfolio Analysis](dashboard/portfolio_analysis.png)
-
-### Customer Analytics
-
-![Customer Analytics](dashboard/customer_analysis.png)
+![Sales Overview](power_bi/dashboard_preview.png)
 
 ---
 
